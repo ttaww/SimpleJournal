@@ -2,7 +2,7 @@
 //  Persistence.swift
 //  SimpleJournal
 //
-//  Created by Tingting on 2022-03-06.
+//  Created by WEI XIE on 2022-03-06.
 //
 
 import CoreData
@@ -14,7 +14,8 @@ struct PersistenceController {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {
-            // Init test data ...
+            let newItem = Item(context: viewContext)
+            newItem.timestamp = Date()
         }
         do {
             try viewContext.save()
@@ -30,10 +31,11 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "Model")
+        container = NSPersistentContainer(name: "SimpleJournal")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
+        container.viewContext.automaticallyMergesChangesFromParent = true
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
