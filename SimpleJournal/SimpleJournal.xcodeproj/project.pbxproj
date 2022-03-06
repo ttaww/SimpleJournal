@@ -13,6 +13,10 @@
 		B5245DBE27D5532600D47742 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5245DBD27D5532600D47742 /* Preview Assets.xcassets */; };
 		B5245DC927D5532600D47742 /* SimpleJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5245DC827D5532600D47742 /* SimpleJournalTests.swift */; };
 		B5245DD427D5532600D47742 /* SimpleJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5245DD327D5532600D47742 /* SimpleJournalUITests.swift */; };
+		B5245DE627D5549500D47742 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5245DE427D5549500D47742 /* Model.xcdatamodeld */; };
+		B5245DEB27D554AF00D47742 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5245DEA27D554AF00D47742 /* Persistence.swift */; };
+		B5245DEC27D554AF00D47742 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5245DEA27D554AF00D47742 /* Persistence.swift */; };
+		B5245DED27D554AF00D47742 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5245DEA27D554AF00D47742 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,8 @@
 		B5245DCF27D5532600D47742 /* SimpleJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5245DD327D5532600D47742 /* SimpleJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalUITests.swift; sourceTree = "<group>"; };
 		B5245DD527D5532600D47742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5245DE527D5549500D47742 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		B5245DEA27D554AF00D47742 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				B5245DB627D5532500D47742 /* SimpleJournalApp.swift */,
+				B5245DE427D5549500D47742 /* Model.xcdatamodeld */,
 				B5245DB827D5532500D47742 /* ContentView.swift */,
 				B5245DBA27D5532600D47742 /* Assets.xcassets */,
 				B5245DBF27D5532600D47742 /* Info.plist */,
 				B5245DBC27D5532600D47742 /* Preview Content */,
+				B5245DEA27D554AF00D47742 /* Persistence.swift */,
 			);
 			path = SimpleJournal;
 			sourceTree = "<group>";
@@ -260,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5245DB927D5532500D47742 /* ContentView.swift in Sources */,
+				B5245DEB27D554AF00D47742 /* Persistence.swift in Sources */,
 				B5245DB727D5532500D47742 /* SimpleJournalApp.swift in Sources */,
+				B5245DE627D5549500D47742 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5245DC927D5532600D47742 /* SimpleJournalTests.swift in Sources */,
+				B5245DEC27D554AF00D47742 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5245DD427D5532600D47742 /* SimpleJournalUITests.swift in Sources */,
+				B5245DED27D554AF00D47742 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +586,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5245DE427D5549500D47742 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5245DE527D5549500D47742 /* Model.xcdatamodel */,
+			);
+			currentVersion = B5245DE527D5549500D47742 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B5245DAB27D5532500D47742 /* Project object */;
 }
