@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5245D3627D54C8600D47742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5245D3527D54C8600D47742 /* AppDelegate.swift */; };
+		B5245D3827D54C8600D47742 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5245D3727D54C8600D47742 /* SceneDelegate.swift */; };
+		B5245D3A27D54C8600D47742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5245D3927D54C8600D47742 /* ViewController.swift */; };
+		B5245D3D27D54C8600D47742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5245D3B27D54C8600D47742 /* Main.storyboard */; };
+		B5245D4027D54C8600D47742 /* SimpleJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5245D3E27D54C8600D47742 /* SimpleJournal.xcdatamodeld */; };
+		B5245D4227D54C8900D47742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5245D4127D54C8900D47742 /* Assets.xcassets */; };
+		B5245D4527D54C8900D47742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5245D4327D54C8900D47742 /* LaunchScreen.storyboard */; };
+		B5245D5027D54C8900D47742 /* SimpleJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5245D4F27D54C8900D47742 /* SimpleJournalTests.swift */; };
+		B5245D5B27D54C8900D47742 /* SimpleJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5245D5A27D54C8900D47742 /* SimpleJournalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5245D4C27D54C8900D47742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5245D2A27D54C8600D47742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5245D3127D54C8600D47742;
+			remoteInfo = SimpleJournal;
+		};
+		B5245D5727D54C8900D47742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5245D2A27D54C8600D47742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5245D3127D54C8600D47742;
+			remoteInfo = SimpleJournal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5245D3227D54C8600D47742 /* SimpleJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5245D3527D54C8600D47742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5245D3727D54C8600D47742 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5245D3927D54C8600D47742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5245D3C27D54C8600D47742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5245D3F27D54C8600D47742 /* SimpleJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleJournal.xcdatamodel; sourceTree = "<group>"; };
+		B5245D4127D54C8900D47742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5245D4427D54C8900D47742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5245D4627D54C8900D47742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5245D4B27D54C8900D47742 /* SimpleJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5245D4F27D54C8900D47742 /* SimpleJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalTests.swift; sourceTree = "<group>"; };
+		B5245D5127D54C8900D47742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5245D5627D54C8900D47742 /* SimpleJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5245D5A27D54C8900D47742 /* SimpleJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalUITests.swift; sourceTree = "<group>"; };
+		B5245D5C27D54C8900D47742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5245D2F27D54C8600D47742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5245D4827D54C8900D47742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5245D5327D54C8900D47742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5245D2927D54C8600D47742 = {
+			isa = PBXGroup;
+			children = (
+				B5245D3427D54C8600D47742 /* SimpleJournal */,
+				B5245D4E27D54C8900D47742 /* SimpleJournalTests */,
+				B5245D5927D54C8900D47742 /* SimpleJournalUITests */,
+				B5245D3327D54C8600D47742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5245D3327D54C8600D47742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5245D3227D54C8600D47742 /* SimpleJournal.app */,
+				B5245D4B27D54C8900D47742 /* SimpleJournalTests.xctest */,
+				B5245D5627D54C8900D47742 /* SimpleJournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5245D3427D54C8600D47742 /* SimpleJournal */ = {
+			isa = PBXGroup;
+			children = (
+				B5245D3527D54C8600D47742 /* AppDelegate.swift */,
+				B5245D3727D54C8600D47742 /* SceneDelegate.swift */,
+				B5245D3927D54C8600D47742 /* ViewController.swift */,
+				B5245D3B27D54C8600D47742 /* Main.storyboard */,
+				B5245D4127D54C8900D47742 /* Assets.xcassets */,
+				B5245D4327D54C8900D47742 /* LaunchScreen.storyboard */,
+				B5245D4627D54C8900D47742 /* Info.plist */,
+				B5245D3E27D54C8600D47742 /* SimpleJournal.xcdatamodeld */,
+			);
+			path = SimpleJournal;
+			sourceTree = "<group>";
+		};
+		B5245D4E27D54C8900D47742 /* SimpleJournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5245D4F27D54C8900D47742 /* SimpleJournalTests.swift */,
+				B5245D5127D54C8900D47742 /* Info.plist */,
+			);
+			path = SimpleJournalTests;
+			sourceTree = "<group>";
+		};
+		B5245D5927D54C8900D47742 /* SimpleJournalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5245D5A27D54C8900D47742 /* SimpleJournalUITests.swift */,
+				B5245D5C27D54C8900D47742 /* Info.plist */,
+			);
+			path = SimpleJournalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5245D3127D54C8600D47742 /* SimpleJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5245D5F27D54C8900D47742 /* Build configuration list for PBXNativeTarget "SimpleJournal" */;
+			buildPhases = (
+				B5245D2E27D54C8600D47742 /* Sources */,
+				B5245D2F27D54C8600D47742 /* Frameworks */,
+				B5245D3027D54C8600D47742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleJournal;
+			productName = SimpleJournal;
+			productReference = B5245D3227D54C8600D47742 /* SimpleJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5245D4A27D54C8900D47742 /* SimpleJournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5245D6227D54C8900D47742 /* Build configuration list for PBXNativeTarget "SimpleJournalTests" */;
+			buildPhases = (
+				B5245D4727D54C8900D47742 /* Sources */,
+				B5245D4827D54C8900D47742 /* Frameworks */,
+				B5245D4927D54C8900D47742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5245D4D27D54C8900D47742 /* PBXTargetDependency */,
+			);
+			name = SimpleJournalTests;
+			productName = SimpleJournalTests;
+			productReference = B5245D4B27D54C8900D47742 /* SimpleJournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5245D5527D54C8900D47742 /* SimpleJournalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5245D6527D54C8900D47742 /* Build configuration list for PBXNativeTarget "SimpleJournalUITests" */;
+			buildPhases = (
+				B5245D5227D54C8900D47742 /* Sources */,
+				B5245D5327D54C8900D47742 /* Frameworks */,
+				B5245D5427D54C8900D47742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5245D5827D54C8900D47742 /* PBXTargetDependency */,
+			);
+			name = SimpleJournalUITests;
+			productName = SimpleJournalUITests;
+			productReference = B5245D5627D54C8900D47742 /* SimpleJournalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5245D2A27D54C8600D47742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					B5245D3127D54C8600D47742 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					B5245D4A27D54C8900D47742 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = B5245D3127D54C8600D47742;
+					};
+					B5245D5527D54C8900D47742 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = B5245D3127D54C8600D47742;
+					};
+				};
+			};
+			buildConfigurationList = B5245D2D27D54C8600D47742 /* Build configuration list for PBXProject "SimpleJournal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5245D2927D54C8600D47742;
+			productRefGroup = B5245D3327D54C8600D47742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5245D3127D54C8600D47742 /* SimpleJournal */,
+				B5245D4A27D54C8900D47742 /* SimpleJournalTests */,
+				B5245D5527D54C8900D47742 /* SimpleJournalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5245D3027D54C8600D47742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5245D4527D54C8900D47742 /* LaunchScreen.storyboard in Resources */,
+				B5245D4227D54C8900D47742 /* Assets.xcassets in Resources */,
+				B5245D3D27D54C8600D47742 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5245D4927D54C8900D47742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5245D5427D54C8900D47742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5245D2E27D54C8600D47742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5245D3A27D54C8600D47742 /* ViewController.swift in Sources */,
+				B5245D3627D54C8600D47742 /* AppDelegate.swift in Sources */,
+				B5245D3827D54C8600D47742 /* SceneDelegate.swift in Sources */,
+				B5245D4027D54C8600D47742 /* SimpleJournal.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5245D4727D54C8900D47742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5245D5027D54C8900D47742 /* SimpleJournalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5245D5227D54C8900D47742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5245D5B27D54C8900D47742 /* SimpleJournalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5245D4D27D54C8900D47742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5245D3127D54C8600D47742 /* SimpleJournal */;
+			targetProxy = B5245D4C27D54C8900D47742 /* PBXContainerItemProxy */;
+		};
+		B5245D5827D54C8900D47742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5245D3127D54C8600D47742 /* SimpleJournal */;
+			targetProxy = B5245D5727D54C8900D47742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5245D3B27D54C8600D47742 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5245D3C27D54C8600D47742 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5245D4327D54C8900D47742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5245D4427D54C8900D47742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5245D5D27D54C8900D47742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5245D5E27D54C8900D47742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5245D6027D54C8900D47742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleJournal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tingting.SimpleJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5245D6127D54C8900D47742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleJournal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tingting.SimpleJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5245D6327D54C8900D47742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleJournalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tingting.SimpleJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleJournal.app/SimpleJournal";
+			};
+			name = Debug;
+		};
+		B5245D6427D54C8900D47742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleJournalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tingting.SimpleJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleJournal.app/SimpleJournal";
+			};
+			name = Release;
+		};
+		B5245D6627D54C8900D47742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleJournalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tingting.SimpleJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleJournal;
+			};
+			name = Debug;
+		};
+		B5245D6727D54C8900D47742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SimpleJournalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tingting.SimpleJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleJournal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5245D2D27D54C8600D47742 /* Build configuration list for PBXProject "SimpleJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5245D5D27D54C8900D47742 /* Debug */,
+				B5245D5E27D54C8900D47742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5245D5F27D54C8900D47742 /* Build configuration list for PBXNativeTarget "SimpleJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5245D6027D54C8900D47742 /* Debug */,
+				B5245D6127D54C8900D47742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5245D6227D54C8900D47742 /* Build configuration list for PBXNativeTarget "SimpleJournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5245D6327D54C8900D47742 /* Debug */,
+				B5245D6427D54C8900D47742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5245D6527D54C8900D47742 /* Build configuration list for PBXNativeTarget "SimpleJournalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5245D6627D54C8900D47742 /* Debug */,
+				B5245D6727D54C8900D47742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5245D3E27D54C8600D47742 /* SimpleJournal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5245D3F27D54C8600D47742 /* SimpleJournal.xcdatamodel */,
+			);
+			currentVersion = B5245D3F27D54C8600D47742 /* SimpleJournal.xcdatamodel */;
+			path = SimpleJournal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5245D2A27D54C8600D47742 /* Project object */;
+}
