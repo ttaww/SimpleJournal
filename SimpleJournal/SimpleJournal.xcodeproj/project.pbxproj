@@ -16,6 +16,7 @@
 		B516DF6727D5919B00B4A307 /* SimpleJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF6627D5919B00B4A307 /* SimpleJournalTests.swift */; };
 		B516DF7127D5919B00B4A307 /* SimpleJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF7027D5919B00B4A307 /* SimpleJournalUITests.swift */; };
 		B516DF7327D5919B00B4A307 /* SimpleJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF7227D5919B00B4A307 /* SimpleJournalUITestsLaunchTests.swift */; };
+		B516DF8027D599A900B4A307 /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF7F27D599A900B4A307 /* EntryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		B516DF6C27D5919B00B4A307 /* SimpleJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B516DF7027D5919B00B4A307 /* SimpleJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalUITests.swift; sourceTree = "<group>"; };
 		B516DF7227D5919B00B4A307 /* SimpleJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B516DF7F27D599A900B4A307 /* EntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				B516DF5027D5919900B4A307 /* SimpleJournalApp.swift */,
 				B516DF5227D5919900B4A307 /* ContentView.swift */,
+				B516DF7F27D599A900B4A307 /* EntryCell.swift */,
 				B516DF5427D5919B00B4A307 /* Assets.xcassets */,
 				B516DF5927D5919B00B4A307 /* Persistence.swift */,
 				B516DF5B27D5919B00B4A307 /* SimpleJournal.xcdatamodeld */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B516DF5A27D5919B00B4A307 /* Persistence.swift in Sources */,
+				B516DF8027D599A900B4A307 /* EntryCell.swift in Sources */,
 				B516DF5327D5919900B4A307 /* ContentView.swift in Sources */,
 				B516DF5127D5919900B4A307 /* SimpleJournalApp.swift in Sources */,
 				B516DF5D27D5919B00B4A307 /* SimpleJournal.xcdatamodeld in Sources */,
