@@ -40,7 +40,7 @@ struct ContentView: View {
                         Button(action: {
                             self.selection = 1
                         }) {
-                            Label("Add Item", systemImage: "plus")
+                            Label("Add Item", systemImage: "square.and.pencil")
                         }
                     }
                 }
