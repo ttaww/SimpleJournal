@@ -14,6 +14,11 @@ struct EntryDetailView: View {
     @State private var content: String = ""
     @State private var selectedDate = Date()
     
+    init(item:Item?) {
+        _content = State(initialValue: item?.content ?? "")
+        self.item = item
+    }
+    
     var body: some View {
         VStack(alignment: .center) {
             DatePicker("", selection: $selectedDate, displayedComponents: .date).datePickerStyle(CompactDatePickerStyle()).labelsHidden()
@@ -25,12 +30,21 @@ struct EntryDetailView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
-                Button(action: {
+                Button("Done") {
                     //
-                }) {
-                    Label("Add Item", systemImage: "trash")
+                    if let item = item {
+                        item.content = content
+                        let viewContext = PersistenceController.shared.container.viewContext
+                        do {
+                            try viewContext.save()
+                        } catch {
+                            // Replace this implementation with code to handle the error appropriately.
+                            // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+                            let nsError = error as NSError
+                            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+                        }
+                    }
                 }
-                .foregroundColor(.red)
             }
         }
         .padding()
