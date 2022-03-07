@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5F20E9627D58155000FF89D /* SimpleJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F20E9527D58155000FF89D /* SimpleJournalApp.swift */; };
-		B5F20E9827D58155000FF89D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F20E9727D58155000FF89D /* ContentView.swift */; };
-		B5F20E9A27D58156000FF89D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F20E9927D58156000FF89D /* Assets.xcassets */; };
-		B5F20E9D27D58156000FF89D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F20E9C27D58156000FF89D /* Preview Assets.xcassets */; };
-		B5F20E9F27D58156000FF89D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F20E9E27D58156000FF89D /* Persistence.swift */; };
-		B5F20EA227D58156000FF89D /* SimpleJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5F20EA027D58156000FF89D /* SimpleJournal.xcdatamodeld */; };
-		B5F20EAC27D58156000FF89D /* SimpleJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F20EAB27D58156000FF89D /* SimpleJournalTests.swift */; };
-		B5F20EB627D58156000FF89D /* SimpleJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F20EB527D58156000FF89D /* SimpleJournalUITests.swift */; };
-		B5F20EB827D58156000FF89D /* SimpleJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F20EB727D58156000FF89D /* SimpleJournalUITestsLaunchTests.swift */; };
+		B516DF5127D5919900B4A307 /* SimpleJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF5027D5919900B4A307 /* SimpleJournalApp.swift */; };
+		B516DF5327D5919900B4A307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF5227D5919900B4A307 /* ContentView.swift */; };
+		B516DF5527D5919B00B4A307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B516DF5427D5919B00B4A307 /* Assets.xcassets */; };
+		B516DF5827D5919B00B4A307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B516DF5727D5919B00B4A307 /* Preview Assets.xcassets */; };
+		B516DF5A27D5919B00B4A307 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF5927D5919B00B4A307 /* Persistence.swift */; };
+		B516DF5D27D5919B00B4A307 /* SimpleJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B516DF5B27D5919B00B4A307 /* SimpleJournal.xcdatamodeld */; };
+		B516DF6727D5919B00B4A307 /* SimpleJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF6627D5919B00B4A307 /* SimpleJournalTests.swift */; };
+		B516DF7127D5919B00B4A307 /* SimpleJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF7027D5919B00B4A307 /* SimpleJournalUITests.swift */; };
+		B516DF7327D5919B00B4A307 /* SimpleJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF7227D5919B00B4A307 /* SimpleJournalUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B5F20EA827D58156000FF89D /* PBXContainerItemProxy */ = {
+		B516DF6327D5919B00B4A307 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5F20E8A27D58155000FF89D /* Project object */;
+			containerPortal = B516DF4527D5919900B4A307 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5F20E9127D58155000FF89D;
+			remoteGlobalIDString = B516DF4C27D5919900B4A307;
 			remoteInfo = SimpleJournal;
 		};
-		B5F20EB227D58156000FF89D /* PBXContainerItemProxy */ = {
+		B516DF6D27D5919B00B4A307 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5F20E8A27D58155000FF89D /* Project object */;
+			containerPortal = B516DF4527D5919900B4A307 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5F20E9127D58155000FF89D;
+			remoteGlobalIDString = B516DF4C27D5919900B4A307;
 			remoteInfo = SimpleJournal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B5F20E9227D58155000FF89D /* SimpleJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5F20E9527D58155000FF89D /* SimpleJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalApp.swift; sourceTree = "<group>"; };
-		B5F20E9727D58155000FF89D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B5F20E9927D58156000FF89D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5F20E9C27D58156000FF89D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B5F20E9E27D58156000FF89D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		B5F20EA127D58156000FF89D /* SimpleJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleJournal.xcdatamodel; sourceTree = "<group>"; };
-		B5F20EA727D58156000FF89D /* SimpleJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5F20EAB27D58156000FF89D /* SimpleJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalTests.swift; sourceTree = "<group>"; };
-		B5F20EB127D58156000FF89D /* SimpleJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5F20EB527D58156000FF89D /* SimpleJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalUITests.swift; sourceTree = "<group>"; };
-		B5F20EB727D58156000FF89D /* SimpleJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B516DF4D27D5919900B4A307 /* SimpleJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B516DF5027D5919900B4A307 /* SimpleJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalApp.swift; sourceTree = "<group>"; };
+		B516DF5227D5919900B4A307 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B516DF5427D5919B00B4A307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B516DF5727D5919B00B4A307 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B516DF5927D5919B00B4A307 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B516DF5C27D5919B00B4A307 /* SimpleJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleJournal.xcdatamodel; sourceTree = "<group>"; };
+		B516DF6227D5919B00B4A307 /* SimpleJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B516DF6627D5919B00B4A307 /* SimpleJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalTests.swift; sourceTree = "<group>"; };
+		B516DF6C27D5919B00B4A307 /* SimpleJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B516DF7027D5919B00B4A307 /* SimpleJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalUITests.swift; sourceTree = "<group>"; };
+		B516DF7227D5919B00B4A307 /* SimpleJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B5F20E8F27D58155000FF89D /* Frameworks */ = {
+		B516DF4A27D5919900B4A307 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5F20EA427D58156000FF89D /* Frameworks */ = {
+		B516DF5F27D5919B00B4A307 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5F20EAE27D58156000FF89D /* Frameworks */ = {
+		B516DF6927D5919B00B4A307 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,60 +75,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B5F20E8927D58155000FF89D = {
+		B516DF4427D5919900B4A307 = {
 			isa = PBXGroup;
 			children = (
-				B5F20E9427D58155000FF89D /* SimpleJournal */,
-				B5F20EAA27D58156000FF89D /* SimpleJournalTests */,
-				B5F20EB427D58156000FF89D /* SimpleJournalUITests */,
-				B5F20E9327D58155000FF89D /* Products */,
+				B516DF4F27D5919900B4A307 /* SimpleJournal */,
+				B516DF6527D5919B00B4A307 /* SimpleJournalTests */,
+				B516DF6F27D5919B00B4A307 /* SimpleJournalUITests */,
+				B516DF4E27D5919900B4A307 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B5F20E9327D58155000FF89D /* Products */ = {
+		B516DF4E27D5919900B4A307 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5F20E9227D58155000FF89D /* SimpleJournal.app */,
-				B5F20EA727D58156000FF89D /* SimpleJournalTests.xctest */,
-				B5F20EB127D58156000FF89D /* SimpleJournalUITests.xctest */,
+				B516DF4D27D5919900B4A307 /* SimpleJournal.app */,
+				B516DF6227D5919B00B4A307 /* SimpleJournalTests.xctest */,
+				B516DF6C27D5919B00B4A307 /* SimpleJournalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B5F20E9427D58155000FF89D /* SimpleJournal */ = {
+		B516DF4F27D5919900B4A307 /* SimpleJournal */ = {
 			isa = PBXGroup;
 			children = (
-				B5F20E9527D58155000FF89D /* SimpleJournalApp.swift */,
-				B5F20E9727D58155000FF89D /* ContentView.swift */,
-				B5F20E9927D58156000FF89D /* Assets.xcassets */,
-				B5F20E9E27D58156000FF89D /* Persistence.swift */,
-				B5F20EA027D58156000FF89D /* SimpleJournal.xcdatamodeld */,
-				B5F20E9B27D58156000FF89D /* Preview Content */,
+				B516DF5027D5919900B4A307 /* SimpleJournalApp.swift */,
+				B516DF5227D5919900B4A307 /* ContentView.swift */,
+				B516DF5427D5919B00B4A307 /* Assets.xcassets */,
+				B516DF5927D5919B00B4A307 /* Persistence.swift */,
+				B516DF5B27D5919B00B4A307 /* SimpleJournal.xcdatamodeld */,
+				B516DF5627D5919B00B4A307 /* Preview Content */,
 			);
 			path = SimpleJournal;
 			sourceTree = "<group>";
 		};
-		B5F20E9B27D58156000FF89D /* Preview Content */ = {
+		B516DF5627D5919B00B4A307 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B5F20E9C27D58156000FF89D /* Preview Assets.xcassets */,
+				B516DF5727D5919B00B4A307 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B5F20EAA27D58156000FF89D /* SimpleJournalTests */ = {
+		B516DF6527D5919B00B4A307 /* SimpleJournalTests */ = {
 			isa = PBXGroup;
 			children = (
-				B5F20EAB27D58156000FF89D /* SimpleJournalTests.swift */,
+				B516DF6627D5919B00B4A307 /* SimpleJournalTests.swift */,
 			);
 			path = SimpleJournalTests;
 			sourceTree = "<group>";
 		};
-		B5F20EB427D58156000FF89D /* SimpleJournalUITests */ = {
+		B516DF6F27D5919B00B4A307 /* SimpleJournalUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B5F20EB527D58156000FF89D /* SimpleJournalUITests.swift */,
-				B5F20EB727D58156000FF89D /* SimpleJournalUITestsLaunchTests.swift */,
+				B516DF7027D5919B00B4A307 /* SimpleJournalUITests.swift */,
+				B516DF7227D5919B00B4A307 /* SimpleJournalUITestsLaunchTests.swift */,
 			);
 			path = SimpleJournalUITests;
 			sourceTree = "<group>";
@@ -136,13 +136,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5F20E9127D58155000FF89D /* SimpleJournal */ = {
+		B516DF4C27D5919900B4A307 /* SimpleJournal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5F20EBB27D58156000FF89D /* Build configuration list for PBXNativeTarget "SimpleJournal" */;
+			buildConfigurationList = B516DF7627D5919B00B4A307 /* Build configuration list for PBXNativeTarget "SimpleJournal" */;
 			buildPhases = (
-				B5F20E8E27D58155000FF89D /* Sources */,
-				B5F20E8F27D58155000FF89D /* Frameworks */,
-				B5F20E9027D58155000FF89D /* Resources */,
+				B516DF4927D5919900B4A307 /* Sources */,
+				B516DF4A27D5919900B4A307 /* Frameworks */,
+				B516DF4B27D5919900B4A307 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -150,69 +150,69 @@
 			);
 			name = SimpleJournal;
 			productName = SimpleJournal;
-			productReference = B5F20E9227D58155000FF89D /* SimpleJournal.app */;
+			productReference = B516DF4D27D5919900B4A307 /* SimpleJournal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5F20EA627D58156000FF89D /* SimpleJournalTests */ = {
+		B516DF6127D5919B00B4A307 /* SimpleJournalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5F20EBE27D58156000FF89D /* Build configuration list for PBXNativeTarget "SimpleJournalTests" */;
+			buildConfigurationList = B516DF7927D5919B00B4A307 /* Build configuration list for PBXNativeTarget "SimpleJournalTests" */;
 			buildPhases = (
-				B5F20EA327D58156000FF89D /* Sources */,
-				B5F20EA427D58156000FF89D /* Frameworks */,
-				B5F20EA527D58156000FF89D /* Resources */,
+				B516DF5E27D5919B00B4A307 /* Sources */,
+				B516DF5F27D5919B00B4A307 /* Frameworks */,
+				B516DF6027D5919B00B4A307 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5F20EA927D58156000FF89D /* PBXTargetDependency */,
+				B516DF6427D5919B00B4A307 /* PBXTargetDependency */,
 			);
 			name = SimpleJournalTests;
 			productName = SimpleJournalTests;
-			productReference = B5F20EA727D58156000FF89D /* SimpleJournalTests.xctest */;
+			productReference = B516DF6227D5919B00B4A307 /* SimpleJournalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B5F20EB027D58156000FF89D /* SimpleJournalUITests */ = {
+		B516DF6B27D5919B00B4A307 /* SimpleJournalUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5F20EC127D58156000FF89D /* Build configuration list for PBXNativeTarget "SimpleJournalUITests" */;
+			buildConfigurationList = B516DF7C27D5919B00B4A307 /* Build configuration list for PBXNativeTarget "SimpleJournalUITests" */;
 			buildPhases = (
-				B5F20EAD27D58156000FF89D /* Sources */,
-				B5F20EAE27D58156000FF89D /* Frameworks */,
-				B5F20EAF27D58156000FF89D /* Resources */,
+				B516DF6827D5919B00B4A307 /* Sources */,
+				B516DF6927D5919B00B4A307 /* Frameworks */,
+				B516DF6A27D5919B00B4A307 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5F20EB327D58156000FF89D /* PBXTargetDependency */,
+				B516DF6E27D5919B00B4A307 /* PBXTargetDependency */,
 			);
 			name = SimpleJournalUITests;
 			productName = SimpleJournalUITests;
-			productReference = B5F20EB127D58156000FF89D /* SimpleJournalUITests.xctest */;
+			productReference = B516DF6C27D5919B00B4A307 /* SimpleJournalUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B5F20E8A27D58155000FF89D /* Project object */ = {
+		B516DF4527D5919900B4A307 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					B5F20E9127D58155000FF89D = {
+					B516DF4C27D5919900B4A307 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					B5F20EA627D58156000FF89D = {
+					B516DF6127D5919B00B4A307 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = B5F20E9127D58155000FF89D;
+						TestTargetID = B516DF4C27D5919900B4A307;
 					};
-					B5F20EB027D58156000FF89D = {
+					B516DF6B27D5919B00B4A307 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = B5F20E9127D58155000FF89D;
+						TestTargetID = B516DF4C27D5919900B4A307;
 					};
 				};
 			};
-			buildConfigurationList = B5F20E8D27D58155000FF89D /* Build configuration list for PBXProject "SimpleJournal" */;
+			buildConfigurationList = B516DF4827D5919900B4A307 /* Build configuration list for PBXProject "SimpleJournal" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,36 +220,36 @@
 				en,
 				Base,
 			);
-			mainGroup = B5F20E8927D58155000FF89D;
-			productRefGroup = B5F20E9327D58155000FF89D /* Products */;
+			mainGroup = B516DF4427D5919900B4A307;
+			productRefGroup = B516DF4E27D5919900B4A307 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5F20E9127D58155000FF89D /* SimpleJournal */,
-				B5F20EA627D58156000FF89D /* SimpleJournalTests */,
-				B5F20EB027D58156000FF89D /* SimpleJournalUITests */,
+				B516DF4C27D5919900B4A307 /* SimpleJournal */,
+				B516DF6127D5919B00B4A307 /* SimpleJournalTests */,
+				B516DF6B27D5919B00B4A307 /* SimpleJournalUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B5F20E9027D58155000FF89D /* Resources */ = {
+		B516DF4B27D5919900B4A307 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F20E9D27D58156000FF89D /* Preview Assets.xcassets in Resources */,
-				B5F20E9A27D58156000FF89D /* Assets.xcassets in Resources */,
+				B516DF5827D5919B00B4A307 /* Preview Assets.xcassets in Resources */,
+				B516DF5527D5919B00B4A307 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5F20EA527D58156000FF89D /* Resources */ = {
+		B516DF6027D5919B00B4A307 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5F20EAF27D58156000FF89D /* Resources */ = {
+		B516DF6A27D5919B00B4A307 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,51 +259,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B5F20E8E27D58155000FF89D /* Sources */ = {
+		B516DF4927D5919900B4A307 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F20E9F27D58156000FF89D /* Persistence.swift in Sources */,
-				B5F20E9827D58155000FF89D /* ContentView.swift in Sources */,
-				B5F20E9627D58155000FF89D /* SimpleJournalApp.swift in Sources */,
-				B5F20EA227D58156000FF89D /* SimpleJournal.xcdatamodeld in Sources */,
+				B516DF5A27D5919B00B4A307 /* Persistence.swift in Sources */,
+				B516DF5327D5919900B4A307 /* ContentView.swift in Sources */,
+				B516DF5127D5919900B4A307 /* SimpleJournalApp.swift in Sources */,
+				B516DF5D27D5919B00B4A307 /* SimpleJournal.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5F20EA327D58156000FF89D /* Sources */ = {
+		B516DF5E27D5919B00B4A307 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F20EAC27D58156000FF89D /* SimpleJournalTests.swift in Sources */,
+				B516DF6727D5919B00B4A307 /* SimpleJournalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5F20EAD27D58156000FF89D /* Sources */ = {
+		B516DF6827D5919B00B4A307 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F20EB827D58156000FF89D /* SimpleJournalUITestsLaunchTests.swift in Sources */,
-				B5F20EB627D58156000FF89D /* SimpleJournalUITests.swift in Sources */,
+				B516DF7327D5919B00B4A307 /* SimpleJournalUITestsLaunchTests.swift in Sources */,
+				B516DF7127D5919B00B4A307 /* SimpleJournalUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B5F20EA927D58156000FF89D /* PBXTargetDependency */ = {
+		B516DF6427D5919B00B4A307 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5F20E9127D58155000FF89D /* SimpleJournal */;
-			targetProxy = B5F20EA827D58156000FF89D /* PBXContainerItemProxy */;
+			target = B516DF4C27D5919900B4A307 /* SimpleJournal */;
+			targetProxy = B516DF6327D5919B00B4A307 /* PBXContainerItemProxy */;
 		};
-		B5F20EB327D58156000FF89D /* PBXTargetDependency */ = {
+		B516DF6E27D5919B00B4A307 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5F20E9127D58155000FF89D /* SimpleJournal */;
-			targetProxy = B5F20EB227D58156000FF89D /* PBXContainerItemProxy */;
+			target = B516DF4C27D5919900B4A307 /* SimpleJournal */;
+			targetProxy = B516DF6D27D5919B00B4A307 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		B5F20EB927D58156000FF89D /* Debug */ = {
+		B516DF7427D5919B00B4A307 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -364,7 +364,7 @@
 			};
 			name = Debug;
 		};
-		B5F20EBA27D58156000FF89D /* Release */ = {
+		B516DF7527D5919B00B4A307 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -419,7 +419,7 @@
 			};
 			name = Release;
 		};
-		B5F20EBC27D58156000FF89D /* Debug */ = {
+		B516DF7727D5919B00B4A307 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -447,7 +447,7 @@
 			};
 			name = Debug;
 		};
-		B5F20EBD27D58156000FF89D /* Release */ = {
+		B516DF7827D5919B00B4A307 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -475,7 +475,7 @@
 			};
 			name = Release;
 		};
-		B5F20EBF27D58156000FF89D /* Debug */ = {
+		B516DF7A27D5919B00B4A307 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,7 +494,7 @@
 			};
 			name = Debug;
 		};
-		B5F20EC027D58156000FF89D /* Release */ = {
+		B516DF7B27D5919B00B4A307 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -513,7 +513,7 @@
 			};
 			name = Release;
 		};
-		B5F20EC227D58156000FF89D /* Debug */ = {
+		B516DF7D27D5919B00B4A307 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -530,7 +530,7 @@
 			};
 			name = Debug;
 		};
-		B5F20EC327D58156000FF89D /* Release */ = {
+		B516DF7E27D5919B00B4A307 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -550,38 +550,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5F20E8D27D58155000FF89D /* Build configuration list for PBXProject "SimpleJournal" */ = {
+		B516DF4827D5919900B4A307 /* Build configuration list for PBXProject "SimpleJournal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5F20EB927D58156000FF89D /* Debug */,
-				B5F20EBA27D58156000FF89D /* Release */,
+				B516DF7427D5919B00B4A307 /* Debug */,
+				B516DF7527D5919B00B4A307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5F20EBB27D58156000FF89D /* Build configuration list for PBXNativeTarget "SimpleJournal" */ = {
+		B516DF7627D5919B00B4A307 /* Build configuration list for PBXNativeTarget "SimpleJournal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5F20EBC27D58156000FF89D /* Debug */,
-				B5F20EBD27D58156000FF89D /* Release */,
+				B516DF7727D5919B00B4A307 /* Debug */,
+				B516DF7827D5919B00B4A307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5F20EBE27D58156000FF89D /* Build configuration list for PBXNativeTarget "SimpleJournalTests" */ = {
+		B516DF7927D5919B00B4A307 /* Build configuration list for PBXNativeTarget "SimpleJournalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5F20EBF27D58156000FF89D /* Debug */,
-				B5F20EC027D58156000FF89D /* Release */,
+				B516DF7A27D5919B00B4A307 /* Debug */,
+				B516DF7B27D5919B00B4A307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5F20EC127D58156000FF89D /* Build configuration list for PBXNativeTarget "SimpleJournalUITests" */ = {
+		B516DF7C27D5919B00B4A307 /* Build configuration list for PBXNativeTarget "SimpleJournalUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5F20EC227D58156000FF89D /* Debug */,
-				B5F20EC327D58156000FF89D /* Release */,
+				B516DF7D27D5919B00B4A307 /* Debug */,
+				B516DF7E27D5919B00B4A307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -589,17 +589,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B5F20EA027D58156000FF89D /* SimpleJournal.xcdatamodeld */ = {
+		B516DF5B27D5919B00B4A307 /* SimpleJournal.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B5F20EA127D58156000FF89D /* SimpleJournal.xcdatamodel */,
+				B516DF5C27D5919B00B4A307 /* SimpleJournal.xcdatamodel */,
 			);
-			currentVersion = B5F20EA127D58156000FF89D /* SimpleJournal.xcdatamodel */;
+			currentVersion = B516DF5C27D5919B00B4A307 /* SimpleJournal.xcdatamodel */;
 			path = SimpleJournal.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = B5F20E8A27D58155000FF89D /* Project object */;
+	rootObject = B516DF4527D5919900B4A307 /* Project object */;
 }

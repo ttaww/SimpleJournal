@@ -2,7 +2,7 @@
 //  Persistence.swift
 //  SimpleJournal
 //
-//  Created by WEI XIE on 2022-03-06.
+//  Created by Tingting on 2022-03-06.
 //
 
 import CoreData
