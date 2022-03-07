@@ -20,19 +20,32 @@ struct EntryDetailView: View {
             TextField("Today was...", text: $content)
                 .padding()
             Spacer()
-        }.padding()
+        }
+        .navigationTitle("")
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button(action: {
+                    //
+                }) {
+                    Label("Add Item", systemImage: "trash")
+                }
+                .foregroundColor(.red)
+            }
+        }
+        .padding()
     }
 }
 
 struct EntryDetailView_Previews: PreviewProvider {
     static var viewContext = PersistenceController.preview.container.viewContext
-
+    
     static var previews: some View {
         let sampleItem = Item(context: viewContext)
         let date = Date()
         sampleItem.timestamp = date
         sampleItem.content = "This is a random content, Yes. This is a random content, Yes. This is a random content, Yes."
         return EntryDetailView(item: sampleItem).environment(\.managedObjectContext, viewContext)
-
+        
     }
 }

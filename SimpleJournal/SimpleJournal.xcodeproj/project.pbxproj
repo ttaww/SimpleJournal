@@ -104,10 +104,10 @@
 			children = (
 				B516DF5027D5919900B4A307 /* SimpleJournalApp.swift */,
 				B516DF5227D5919900B4A307 /* ContentView.swift */,
+				B516DF8127D5D4FC00B4A307 /* EntryDetailView.swift */,
 				B516DF7F27D599A900B4A307 /* EntryCell.swift */,
 				B516DF5427D5919B00B4A307 /* Assets.xcassets */,
 				B516DF5927D5919B00B4A307 /* Persistence.swift */,
-				B516DF8127D5D4FC00B4A307 /* EntryDetailView.swift */,
 				B516DF5B27D5919B00B4A307 /* SimpleJournal.xcdatamodeld */,
 				B516DF5627D5919B00B4A307 /* Preview Content */,
 			);
