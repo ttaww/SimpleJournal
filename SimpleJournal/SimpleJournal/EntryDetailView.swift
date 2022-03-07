@@ -11,6 +11,7 @@ import CoreData
 
 struct EntryDetailView: View {
     var item: Item?
+
     @State private var content: String = ""
     @State private var selectedDate = Date()
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
@@ -36,8 +37,8 @@ struct EntryDetailView: View {
                     //
                     if let item = item {
                         item.content = content
-                        let viewContext = PersistenceController.shared.container.viewContext
                         do {
+                            let viewContext = PersistenceController.shared.container.viewContext
                             try viewContext.save()
                         } catch {
                             // Replace this implementation with code to handle the error appropriately.
@@ -45,8 +46,8 @@ struct EntryDetailView: View {
                             let nsError = error as NSError
                             fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
                         }
+                        self.presentationMode.wrappedValue.dismiss()
                     }
-                    self.presentationMode.wrappedValue.dismiss()
                 }
             }
         }

@@ -10,6 +10,7 @@ import CoreData
 
 struct ContentView: View {
     @State var selection: Int? = nil
+    @State var stateId = UUID()
     @Environment(\.managedObjectContext) private var viewContext
     
     @FetchRequest(entity:Item.entity(),
@@ -24,7 +25,21 @@ struct ContentView: View {
                     NavigationLink {
                         EntryDetailView(item: item)
                     } label: {
-                        EntryCell(item: item)
+                        HStack {
+                            VStack {
+                                Text("\(getMonth(date:item.timestamp))")
+                                    .font(.title)
+                                    .frame(width: 100)
+                                    .padding(.leading, -20)
+                                Text("\(getDay(date:item.timestamp)) ")
+                                    .foregroundColor(.red)
+                                    .font(.title)
+                                    .frame(width: 50)
+                                    .padding(.leading, -20)
+                            }
+                            Text(item.content ?? "")
+                                .font(.system(size: 14))
+                        }  
                     }
                 }
                 .onDelete(perform: deleteItems)
@@ -46,7 +61,8 @@ struct ContentView: View {
                 }
                 
             }
-            Text("Select an item")
+        }.onAppear {
+            stateId = UUID()
         }
     }
     
@@ -80,6 +96,26 @@ struct ContentView: View {
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
         }
+    }
+    
+    private func getMonth(date:Date?) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MMM"
+        if let dateToBeFormatted = date {
+            let month = formatter.string(from: dateToBeFormatted)
+            return month.uppercased()
+        }
+        return ""
+    }
+    
+    private func getDay(date:Date?) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "d"
+        if let dateToBeFormatted = date {
+            let day = formatter.string(from: dateToBeFormatted)
+            return day
+        }
+        return ""
     }
 }
 
