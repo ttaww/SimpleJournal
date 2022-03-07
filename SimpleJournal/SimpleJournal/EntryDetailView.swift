@@ -13,6 +13,8 @@ struct EntryDetailView: View {
     var item: Item?
     @State private var content: String = ""
     @State private var selectedDate = Date()
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+
     
     init(item:Item?) {
         _content = State(initialValue: item?.content ?? "")
@@ -44,6 +46,7 @@ struct EntryDetailView: View {
                             fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
                         }
                     }
+                    self.presentationMode.wrappedValue.dismiss()
                 }
             }
         }

@@ -12,7 +12,7 @@ struct ContentView: View {
     @State var selection: Int? = nil
     @Environment(\.managedObjectContext) private var viewContext
     
-    @FetchRequest(
+    @FetchRequest(entity:Item.entity(),
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
