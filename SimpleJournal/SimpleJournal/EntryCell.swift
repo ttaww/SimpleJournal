@@ -11,7 +11,14 @@ struct EntryCell: View {
     var item: Item
     
     var body: some View {
-        Text("\(getMonth(date:item.timestamp)) \(getDay(date:item.timestamp)) ")
+        HStack {
+            VStack {
+                Text("\(getMonth(date:item.timestamp))")
+                Text("\(getDay(date:item.timestamp)) ")
+            }
+            Spacer()
+            Text(item.content ?? "")
+        }  
     }
     
     
