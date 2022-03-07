@@ -14,10 +14,17 @@ struct EntryCell: View {
         HStack {
             VStack {
                 Text("\(getMonth(date:item.timestamp))")
+                    .font(.title)
+                    .frame(width: 100)
+                    .padding(.leading, -20)
                 Text("\(getDay(date:item.timestamp)) ")
+                    .foregroundColor(.red)
+                    .font(.title)
+                    .frame(width: 50)
+                    .padding(.leading, -20)
             }
-            Spacer()
             Text(item.content ?? "")
+                .font(.system(size: 14))
         }  
     }
     
