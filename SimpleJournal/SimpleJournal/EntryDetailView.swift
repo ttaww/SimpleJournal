@@ -11,8 +11,16 @@ import CoreData
 
 struct EntryDetailView: View {
     var item: Item?
+    @State private var content: String = ""
+    @State private var selectedDate = Date()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .center) {
+            DatePicker("", selection: $selectedDate, displayedComponents: .date).datePickerStyle(CompactDatePickerStyle()).labelsHidden()
+            TextField("Today was...", text: $content)
+                .padding()
+            Spacer()
+        }.padding()
     }
 }
 
