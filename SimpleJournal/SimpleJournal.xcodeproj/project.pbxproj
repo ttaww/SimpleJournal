@@ -17,6 +17,7 @@
 		B516DF7127D5919B00B4A307 /* SimpleJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF7027D5919B00B4A307 /* SimpleJournalUITests.swift */; };
 		B516DF7327D5919B00B4A307 /* SimpleJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF7227D5919B00B4A307 /* SimpleJournalUITestsLaunchTests.swift */; };
 		B516DF8027D599A900B4A307 /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF7F27D599A900B4A307 /* EntryCell.swift */; };
+		B516DF8227D5D4FC00B4A307 /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516DF8127D5D4FC00B4A307 /* EntryDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		B516DF7027D5919B00B4A307 /* SimpleJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalUITests.swift; sourceTree = "<group>"; };
 		B516DF7227D5919B00B4A307 /* SimpleJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B516DF7F27D599A900B4A307 /* EntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
+		B516DF8127D5D4FC00B4A307 /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				B516DF7F27D599A900B4A307 /* EntryCell.swift */,
 				B516DF5427D5919B00B4A307 /* Assets.xcassets */,
 				B516DF5927D5919B00B4A307 /* Persistence.swift */,
+				B516DF8127D5D4FC00B4A307 /* EntryDetailView.swift */,
 				B516DF5B27D5919B00B4A307 /* SimpleJournal.xcdatamodeld */,
 				B516DF5627D5919B00B4A307 /* Preview Content */,
 			);
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B516DF8227D5D4FC00B4A307 /* EntryDetailView.swift in Sources */,
 				B516DF5A27D5919B00B4A307 /* Persistence.swift in Sources */,
 				B516DF8027D599A900B4A307 /* EntryCell.swift in Sources */,
 				B516DF5327D5919900B4A307 /* ContentView.swift in Sources */,

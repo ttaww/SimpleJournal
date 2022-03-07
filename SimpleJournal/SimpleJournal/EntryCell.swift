@@ -49,3 +49,16 @@ struct EntryCell: View {
         return ""
     }
 }
+
+struct EntryCell_Previews: PreviewProvider {
+    static var viewContext = PersistenceController.preview.container.viewContext
+
+    static var previews: some View {
+        let sampleItem = Item(context: viewContext)
+        let date = Date()
+        sampleItem.timestamp = date
+        sampleItem.content = "This is a random content, Yes. This is a random content, Yes. This is a random content, Yes."
+        return EntryCell(item: sampleItem).environment(\.managedObjectContext, viewContext)
+
+    }
+}
