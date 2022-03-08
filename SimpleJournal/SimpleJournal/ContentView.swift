@@ -44,6 +44,8 @@ struct ContentView: View {
                 }
                 .onDelete(perform: deleteItems)
             }
+            .navigationTitle("Simple Journal")
+            .navigationBarTitleDisplayMode(.large)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
@@ -61,9 +63,11 @@ struct ContentView: View {
                 }
                 
             }
-        }.onAppear {
+        }
+        .onAppear {
             stateId = UUID()
         }
+ 
     }
     
     private func addItem() {

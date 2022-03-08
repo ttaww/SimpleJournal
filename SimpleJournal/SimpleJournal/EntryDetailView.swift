@@ -48,8 +48,19 @@ struct EntryDetailView: View {
                             let nsError = error as NSError
                             fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
                         }
-                        self.presentationMode.wrappedValue.dismiss()
+                    } else {
+                        do {
+                            let viewContext = PersistenceController.shared.container.viewContext
+                            let newItem = Item(context: viewContext)
+                            newItem.content = content
+                            newItem.timestamp = selectedDate
+                            try viewContext.save()
+                        } catch {
+                            let nsError = error as NSError
+                            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+                        }
                     }
+                    self.presentationMode.wrappedValue.dismiss()
                 }
             }
         }
