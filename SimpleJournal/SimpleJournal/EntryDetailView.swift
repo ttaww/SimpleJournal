@@ -19,6 +19,7 @@ struct EntryDetailView: View {
     
     init(item:Item?) {
         _content = State(initialValue: item?.content ?? "")
+        _selectedDate = State(initialValue: item?.timestamp ?? Date())
         self.item = item
     }
     
@@ -37,6 +38,7 @@ struct EntryDetailView: View {
                     //
                     if let item = item {
                         item.content = content
+                        item.timestamp = selectedDate
                         do {
                             let viewContext = PersistenceController.shared.container.viewContext
                             try viewContext.save()
