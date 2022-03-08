@@ -25,7 +25,10 @@ struct EntryDetailView: View {
     
     var body: some View {
         VStack(alignment: .center) {
-            DatePicker("", selection: $selectedDate, displayedComponents: .date).datePickerStyle(CompactDatePickerStyle()).labelsHidden()
+            DatePicker("", selection: $selectedDate, displayedComponents: .date)
+                .datePickerStyle(CompactDatePickerStyle())
+                .labelsHidden()
+                .id(selectedDate)
             TextEditor(text: $content)
                 .padding()
             Spacer()
