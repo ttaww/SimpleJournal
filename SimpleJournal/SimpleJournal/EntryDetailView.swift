@@ -12,7 +12,7 @@ import CoreData
 struct EntryDetailView: View {
     var item: Item?
 
-    @State private var content: String = ""
+    @State private var content: String
     @State private var selectedDate = Date()
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
 
@@ -26,7 +26,7 @@ struct EntryDetailView: View {
     var body: some View {
         VStack(alignment: .center) {
             DatePicker("", selection: $selectedDate, displayedComponents: .date).datePickerStyle(CompactDatePickerStyle()).labelsHidden()
-            TextField("Today was...", text: $content)
+            TextEditor(text: $content)
                 .padding()
             Spacer()
         }
